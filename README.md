@@ -11,20 +11,20 @@ This project leverages python 3.7. It utilizes the following packages:
 
 **[Streamlit Library Python](https://streamlit.io/)** -  turns data scripts into shareable web apps in minutes.<br>
 
-**[Dataclasses Library Python]** - provides a decorator and functions for automatically adding generated special methods such as __init__() and __repr__() to user-defined classes. <br>
+**Dataclasses Library Python** - provides a decorator and functions for automatically adding generated special methods such as __init__() and __repr__() to user-defined classes. <br>
 
-**[Typing Library Python]** - provides runtime support for type hints. <br>
+**Typing Library Python** - provides runtime support for type hints. <br>
 
-**[Datetime Library Python]** - supplies classes for manipulating dates and times.<br>
+**Datetime Library Python** - supplies classes for manipulating dates and times.<br>
 
-**[Hashlib Library Python]** - implements a common interface to many different secure hash and message digest algorithms.<br>
+**Hashlib Library Python** - implements a common interface to many different secure hash and message digest algorithms.<br>
 
 
 ---
 
 ## Installation Guide
 
-Before running the application install the following dependencies:
+Before running the application, install the following dependencies:
 
 1) To install the Streamlit library, confirm your dev virtual environment is active, and then run the following command:
 
@@ -42,7 +42,7 @@ To use the application, clone the repository and run the **pychain.py** file in 
 streamlit run pychain.py
 ```
 
-![Streamlit Interface](images/st.png)
+![Streamlit Interface](images/st.PNG)
 
 
 ---
@@ -59,18 +59,13 @@ The app creates a baseline trading algorithm. The baseline algorithim utilizes a
 
    Baseline:
 
-   ![Three Month Strategy Returns Compared to Actual](images/actual_v_strategy_plot.png)
-
-   Tuned:
-
-   ![Six Month Strategy Returns COmpared to Actual](images/tuned_actual_v_strategy_plot.png)
+  
    
 Next, using the baseline model, a Logistic Regression classifer was used and compared to the SVM model. Comparison shows the SVM model outperforms the Logistic Regression model. As shown below, the Logistic Regression model produces substandard returns. Therefore, it is recommended to implement the SVM classifier in this case.
 
    LR:
 
-   ![LR](images/lr_actual_v_strategy_plot.png)
-
+  
 ---
 
  
