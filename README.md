@@ -44,24 +44,24 @@ streamlit run pychain.py
 The user can then:
     1) adjust the difficulty of the block hashing, 
 
-        ![Block Difficulty](images/difficulty.PNG)
+![Block Difficulty](images/difficulty.PNG)
 
     2) enter sender, receiver and amount inputs, 
 
-        ![User Inputs](images/inputs.PNG)
+![User Inputs](images/inputs.PNG)
 
     3) view the resulting ledger, 
 
-        ![PyChain Ledger](images/ledger.PNG)
+![PyChain Ledger](images/ledger.PNG)
 
     4) validate the chain, 
 
-        ![Validate Chain](images/validate.PNG)
+![Validate Chain](images/validate.PNG)
 
     5) and use the "Block Inspector" to view individual blocks. 
 
-        ![Block Inspector](images/inspector.PNG)
-        
+![Block Inspector](images/inspector.PNG)
+
 
 The below image shows the complete interface:
 
