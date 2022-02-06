@@ -5,31 +5,30 @@ This blockchain based application allows users to conduct financial transactions
 
 ## Technologies
 
-This project leverages python 3.7. It utilizes the following packages:
+This application utilizes the following technologies:
 
-**[Pandas Library Python](https://pandas.pydata.org/)** - a fast, powerful, flexible and easy to use open source data analysis and manipulation tool.<br>
+**[Pandas Library Python](https://pandas.pydata.org/)** 
 
-**[Streamlit Library Python](https://streamlit.io/)** -  turns data scripts into shareable web apps in minutes.<br>
+**[Streamlit Library Python](https://streamlit.io/)** 
 
-**Dataclasses Library Python** - provides a decorator and functions for automatically adding generated special methods such as __init__() and __repr__() to user-defined classes. <br>
+**Dataclasses Library Python** 
 
-**Typing Library Python** - provides runtime support for type hints. <br>
+**Typing Library Python**
 
-**Datetime Library Python** - supplies classes for manipulating dates and times.<br>
+**Datetime Library Python** 
 
-**Hashlib Library Python** - implements a common interface to many different secure hash and message digest algorithms.<br>
+**Hashlib Library Python**
 
 
 ---
 
 ## Installation Guide
 
-Before running the application, install the following dependencies:
-
-1) To install the Streamlit library, confirm your dev virtual environment is active, and then run the following command:
-
 ```python
 pip install streamlit
+```
+```python
+pip install pandas
 ```
 
 ---
@@ -42,13 +41,19 @@ To use the application, clone the repository and run the **pychain.py** file in 
 streamlit run pychain.py
 ```
 
-The user can then 
+The user can then:
     1) adjust the difficulty of the block hashing, 
+        ![Block Difficulty](images/difficulty.PNG)
     2) enter sender, receiver and amount inputs, 
+        ![User Inputs](images/inputs.PNG)
     3) view the resulting ledger, 
+        ![PyChain Ledger](images/ledger.PNG)
     4) validate the chain, 
+        ![Validate Chain](images/validate.PNG)
     5) and use the "Block Inspector" to view individual blocks. 
-As the image belows shows:
+        ![Block Inspector](images/inspector.PNG)
+
+The below image shows the complete interface:
 
 ![Streamlit Interface](images/st.PNG)
 
